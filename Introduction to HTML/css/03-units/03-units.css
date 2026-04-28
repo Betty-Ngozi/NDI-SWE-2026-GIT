@@ -1,0 +1,12 @@
+#px-abs-unit{
+    width:100px ;
+    height: 150px;
+    background-color: blueviolet;
+
+}
+
+#cm-abs-unit{
+    width: 5cm;
+    height: 4cm;
+    background-color: pink;
+}

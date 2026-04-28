@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="last name">
+            <div onclick="handlesubmit()" role="button">Submit</div>
+
+            <btton type="submit">Submit Application</btton>
+        </form>
+
+        <fieldset>
+            <legend>Text Hierachy</legend>
+            <h1>Title of the page</h1>
+            <h2>This is second </h2>
+            <h2>This is Third</h2>
+            <h3>Many more of this</h3>
+            <h3>Another of this</h3>
+            <h3>Another of this</h3>
+        </fieldset>
+
+        <p>Proper use of HTML Semantic is also include in proper accessibilty</p>
+
+        <p>use of proper alt= text in our images</p>
+
+        <fieldset>
+            <legend>forms</legend>
+
+            <label for="full Name" aria-hidden="true">full name</label>
+            <input id="full Name" type="text" placeholder="Full name">
+
+            <label for="email">Email</label>
+            <input id="email" type="email">
+        </fieldset>
+
+        <p>proper grouping of related elements</p>
+        
+        <form style="border: 1px solid #000" action=""></form>
+        <fieldset>
+            <legend>student biodata</legend>
+            <!--other inputgoes here-->
+        </fieldset>
+        <fieldset>
+            <legend>Academic Records</legend>
+        </fieldset>
+    </main>
+</body>
+</html>
